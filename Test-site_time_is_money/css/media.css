@@ -1,0 +1,214 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+.form-top .inp {
+    width: 42.1%;
+    float: left;
+    font: 1em "OpenSansRegular", Sans serif;
+    display: block;
+    padding: 2%;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin-right: 6%;
+    margin-bottom: 6%;
+}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+.single_block {
+	width: 50%;
+}
+.single_service {
+	width: 100%;
+}
+
+.form-top .inp {
+	width: 95.5%;
+	margin-right: 0;
+}
+
+
+
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+.menu-trigger {
+	display: block;
+}
+.fixed {
+	display: none;
+}
+.logo {
+	padding-top: 16px
+}
+.navbar ul {
+	display: none;
+	position: absolute;
+	z-index: 4;
+}
+.navbar ul li {
+	display: block;
+	width: 122px;
+	overflow: hidden;
+}
+.navbar ul li a {
+	text-align: center;
+	line-height: 37px;
+	padding: 5px 0;
+	width: 122px;
+	background: #f8f9fb;
+	display: block;
+
+}
+.navbar ul li a:hover {
+	line-height: 37px;
+
+}
+.slide-cont .sl_slide .top_wrap {
+	padding: 80px 0;
+}
+.slide-cont .sl_slide .top_wrap .top_desc .top_cent .top_text h1 {
+	font-size: 2.5em;
+	margin-bottom: 5%;
+}
+.slide-cont .sl_slide .top_wrap .top_desc .top_cent .top_text p {
+	font-size: 1em;
+	margin-bottom: 5%;
+}
+.slide-cont .sl_slide .top_wrap .top_desc .top_cent .top_text a {
+	padding: 2% 3%;
+	border: 2px solid #fff;
+	font-size: 1em;
+}
+.single_cont_l, .single_cont_r {
+	width: 100%;
+}
+.single_cont_l {
+	text-align: center;
+}
+
+
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+.logo {
+	padding-top: 15px;
+}
+
+.menu-trigger {
+	padding: 21px 11px;
+	width: 80px;
+	font-size: 15px;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	border: 3px solid #f8f9fb
+}
+.menu-trigger:hover {
+	padding: 21px 11px;
+}
+
+.navbar ul li {
+	display: block;
+	width: 108px;
+	overflow: hidden;
+}
+.navbar ul li a {
+	text-align: center;
+	line-height: 27px;
+	padding: 5px 0;
+	width: 108px;
+	background: #f8f9fb;
+	display: block;
+
+}
+.navbar ul li a:hover {
+	line-height: 27px;
+
+}	
+
+.slide-cont .sl_slide .top_wrap {
+	padding: 60px 0;
+}
+.slide-cont .sl_slide .top_wrap .top_desc .top_cent .top_text h1 {
+	font-size: 2em;
+	margin-bottom: 5%;
+}
+.slide-cont .sl_slide .top_wrap .top_desc .top_cent .top_text p {
+	font-size: 1em;
+	margin-bottom: 5%;
+}
+.slide-cont .sl_slide .top_wrap .top_desc .top_cent .top_text a {
+	padding: 2% 3%;
+	border: 2px solid #fff;
+	font-size: 1em;
+}
+.slick-prev:before, .slick-next:before, .slick-prev:hover:before, .slick-prev:focus:before, .slick-next:hover:before, .slick-next:focus:before {
+	opacity: 0;
+}
+.single_block {
+	width: 100%;
+}
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+
+
+
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+	.contbox{
+		width: 750px;
+}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+	.contbox{
+		width: 970px;
+}
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+	.contbox{
+		width: 1170px;
+}
+
+}

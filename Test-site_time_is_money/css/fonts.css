@@ -1,0 +1,29 @@
+@font-face {
+	font-family: "OpenSansRegular";
+	src: url("../fonts/OpenSansRegular/OpenSansRegular.eot");
+	src: url("../fonts/OpenSansRegular/OpenSansRegular.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"),
+	url("../fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "OpenSans-Semibold";
+	src: url("../fonts/OpenSans-Semibold/OpenSans-Semibold.eot");
+	src: url("../fonts/OpenSans-Semibold/OpenSans-Semibold.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/OpenSans-Semibold/OpenSans-Semibold.woff") format("woff"),
+	url("../fonts/OpenSans-Semibold/OpenSans-Semibold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "MYRIADPROREGULAR";
+	src: url("../fonts/MYRIADPROREGULAR/MYRIADPROREGULAR.eot");
+	src: url("../fonts/MYRIADPROREGULAR/MYRIADPROREGULAR.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/MYRIADPROREGULAR/MYRIADPROREGULAR.woff") format("woff"),
+	url("../fonts/MYRIADPROREGULAR/MYRIADPROREGULAR.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
